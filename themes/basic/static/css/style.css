@@ -1,0 +1,36 @@
+.container {
+  margin: 0 auto;
+  width: 100vw;
+  height:100vh;
+}
+
+.hero-3 {
+  position: absolute;
+  right: 20px;
+  bottom: 5px;
+  width: 10vh;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin:0px;
+    padding:0px;
+}
+
+h1 {
+/*  color: #04294F;*/
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+}
+
+small {
+  margin-top: 20px;
+}
+
+
+
+
+
