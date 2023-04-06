@@ -4,6 +4,8 @@
   height:100vh;
 }
 
+/*landing page*/
+
 .hero-3 {
   position: absolute;
   right: 20px;
@@ -31,6 +33,8 @@ small {
   margin-top: 20px;
 }
 
+/*sign-up form*/
+
 #form-box {
   border: solid 1px grey;
   border-radius: 20px;
@@ -46,7 +50,7 @@ small {
 }
 
 input::placeholder {
-  color: lightgrey;
+  color: #717568;
   font-size: 14px;
 }
 
