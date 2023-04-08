@@ -1,16 +1,17 @@
 {{ define "main" }}
-  <div style="display:flex;">
-    <div style="width:40vw; object-fit: cover; background-size: contain;">
-      <img src="/hero.png" alt="" style="height:95vh;">
+  <div class="flex">
+    <div class="main-hero-div">
+      <img src="/hero.png" alt="" class="main-hero">
+      <img src="/mobile-hero.png" alt="" class="mobile-hero">
     </div>
-    <!-- <div style="width:5vw; overflow:hidden"></div> -->
-    <div style="text-align: center;width:55vw; padding:20px;position: relative;overflow: hidden;">
+    <div style="height:10vh; overflow:hidden" class="space"></div>
+    <div class="text-div">
       <!-- <p style="display:flex; justify-content:flex-end;margin:0px;font-size:12px">About us</p> -->
       <br>
-      <img src="/logo.png" alt="" style="width:40%;">
+      <img src="/logo.png" alt="" class="logo-size">
 
-      <h1 style="margin-top: 100px;"> We've reimagined science for <br> 7-12 year olds </h1>
-      <p style="color:#717568;line-height: 1.8rem;"> School science made more fun and relatable. Explore key concepts through action-packed stories, games and quizzes. </p>
+      <h1 class="space_above_title"> We've reimagined science for <br> 7-12 year olds </h1>
+      <p style="color:#717568;line-height: 1.8rem;"> School science made more fun, relatable and in tune with 21st century skills. Explore key concepts through action-packed stories, games and quizzes. </p>
       <br>
 
       {{ partial "signup.html" . }}
