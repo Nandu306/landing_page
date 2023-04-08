@@ -13,6 +13,24 @@
   width: 10vh;
 }
 
+.flex {
+  display:flex;
+}
+
+.main-hero-div {
+  width:40vw;
+  object-fit: cover;
+  background-size: contain;
+}
+
+.main-hero-div img {
+  height:95vh;
+}
+
+.mobile-hero {
+  display:none;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     margin:0px;
@@ -25,12 +43,32 @@ h1 {
   font-size: 36px;
 }
 
+.space_above_title {
+  margin-top:100px;
+}
+
 p {
   font-size: 18px;
 }
 
 small {
   margin-top: 20px;
+}
+
+.text-div {
+  text-align: center;
+  width:55vw;
+  padding:20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.space {
+  display:none;
+}
+
+.logo-size {
+  width:40%;
 }
 
 /*sign-up form*/
@@ -68,6 +106,93 @@ input::placeholder {
   margin-left:-150px;
   font-weight: bold;
   cursor: pointer;
+}
+
+/*mobile responsiveness*/
+
+/*larger phones and tablets*/
+
+@media only screen and (max-width: 960px) {
+  .flex {
+    flex-direction: column;
+  }
+  .main-hero-div {
+    height: 40vw;
+    width:auto;
+  }
+  .mobile-hero {
+    display:block;
+    width:100vw;
+  }
+  .main-hero-div img {
+    height:auto;
+  }
+  .main-hero {
+    display:none;
+  }
+ .hero-3 {
+ display: none;
+ }
+ .hero-image {
+  display:none;
+ }
+ .mobile-hero {
+  height:30vh;
+ }
+ .text-div {
+  width:auto;
+  height:60vh;
+ }
+ .space{
+  display:block;
+ }
+ .logo-size {
+  width:70%;
+ }
+}
+
+/*smaller phones*/
+
+@media only screen and (max-width: 600px) {
+  .flex {
+    flex-direction: column;
+  }
+  .main-hero-div {
+    height: 40vw;
+    width:auto;
+  }
+  .mobile-hero {
+    display:block;
+    width:100vw;
+  }
+  .main-hero-div img {
+    height:auto;
+  }
+  .main-hero {
+    display:none;
+  }
+ .hero-3 {
+ display: none;
+ }
+ .hero-image {
+  display:none;
+ }
+ .mobile-hero {
+  height:30vh;
+ }
+ .text-div {
+  width:auto;
+  height:60vh;
+ }
+ .space{
+  display:block;
+ }
+ .logo-size {
+  width:70%;
+ }
+ .space_above_title {
+   margin-top:80px;
+ }
 }
 
 
