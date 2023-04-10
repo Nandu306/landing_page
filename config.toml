@@ -7,7 +7,7 @@ googleAnalytics = 'G-4EHNRV42PM'
 
 [params]
   description = 'Reimagining science for 7-12 year olds'
-  images = ['sq-landing-page.png']
+  images = ['sq-open-graph.png']
   title = 'ScienceQuests | Science for 7-12 year olds made more fun and relatable'
 [taxonomies]
   series = 'series'
