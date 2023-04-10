@@ -1,4 +1,13 @@
-baseURL = 'http://sciencequests.com/'
+baseURL = 'https://sciencequests.com/'
 languageCode = 'en-us'
-title = 'ScienceQuests | Science made more fun and meaningful'
+title = 'ScienceQuests | Science for 7-12 year olds made more fun and relatable'
 theme = 'basic'
+
+googleAnalytics = 'G-4EHNRV42PM'
+
+[params]
+  description = 'Reimagining science for 7-12 year olds'
+  images = 'sq-landing-page.png'
+  title = 'ScienceQuests | Science for 7-12 year olds made more fun and relatable'
+[taxonomies]
+  series = 'series'
