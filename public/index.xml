@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ScienceQuests | Science made more fun and meaningful</title>
-    <link>http://sciencequests.com/</link>
-    <description>Recent content on ScienceQuests | Science made more fun and meaningful</description>
+    <title>ScienceQuests | Science for 7-12 year olds made more fun and relatable</title>
+    <link>https://sciencequests.com/</link>
+    <description>Recent content on ScienceQuests | Science for 7-12 year olds made more fun and relatable</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Apr 2023 22:24:19 +0200</lastBuildDate><atom:link href="http://sciencequests.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Apr 2023 22:24:19 +0200</lastBuildDate><atom:link href="https://sciencequests.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://sciencequests.com/about/</link>
+      <link>https://sciencequests.com/about/</link>
       <pubDate>Mon, 03 Apr 2023 17:28:42 +0200</pubDate>
       
-      <guid>http://sciencequests.com/about/</guid>
+      <guid>https://sciencequests.com/about/</guid>
       <description>This is my About page.</description>
     </item>
     
