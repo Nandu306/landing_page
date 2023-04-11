@@ -196,4 +196,59 @@ input::placeholder {
 }
 
 
+/*really small phones*/
+
+@media only screen and (max-width: 380px) {
+  .flex {
+    flex-direction: column;
+  }
+  .main-hero-div {
+    height: 30vw;
+    width:auto;
+  }
+  .mobile-hero {
+    display:block;
+    width:100vw;
+  }
+  .main-hero-div img {
+    height:auto;
+  }
+  .main-hero {
+    display:none;
+  }
+ .hero-3 {
+ display: none;
+ }
+ .hero-image {
+  display:none;
+ }
+ .mobile-hero {
+  height:30vh;
+ }
+ .text-div {
+  width:auto;
+  height:70vh;
+  padding:5px;
+ }
+ .space{
+  display:block;
+ }
+ .logo-size {
+  width:70%;
+ }
+ .space_above_title {
+   margin-top:30px;
+ }
+ .space {
+  height:5vh;
+ }
+ p {
+  font-size: 16px;
+ }
+ h1 {
+  font-size: 32px;
+ }
+}
+
+
 
