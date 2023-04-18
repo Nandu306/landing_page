@@ -197,6 +197,9 @@ input::placeholder {
  .space_above_title {
    margin-top:80px;
  }
+ #form-box {
+  width: 190px;
+ }
 }
 
 
@@ -251,6 +254,9 @@ input::placeholder {
  }
  h1 {
   font-size: 32px;
+ }
+ #form-box {
+  width:190px;
  }
 }
 
