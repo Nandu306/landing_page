@@ -246,7 +246,7 @@ input::placeholder {
  body {
   position: relative;
   overflow-y: scroll;
-  max-height: 100svh;
+  min-height: 100dvh;
  }
 }
 
@@ -303,7 +303,7 @@ input::placeholder {
  body {
   position: relative;
   overflow-y: scroll;
-  max-height: 100svh;
+  min-height: 100dvh;
  }
 }
 
