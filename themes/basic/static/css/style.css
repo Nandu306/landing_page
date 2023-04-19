@@ -30,11 +30,15 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    margin:0px;
-    padding:0px;
+  font-family: 'Inter', sans-serif;
+  margin:0px;
+  padding:0px;
 /*    background-color: #FFFFFA;*/
 }
+
+html, body {
+  height:100%;
+ }
 
 h1 {
 /*  color: #04294F;*/
@@ -159,10 +163,6 @@ input::placeholder {
   .flex {
     flex-direction: column;
   }
-  .main-hero-div {
-    height: 40vw;
-    width:auto;
-  }
   .mobile-hero {
     display:block;
     width:100vw;
@@ -180,11 +180,11 @@ input::placeholder {
   display:none;
  }
  .mobile-hero {
-  height:30vh;
+  height:40%;
  }
  .text-div {
   width:auto;
-  height:60vh;
+  height:60%;
  }
  .space{
   display:block;
@@ -198,9 +198,6 @@ input::placeholder {
  #form-box {
   width: 190px;
  }
- html, body {
-  overflow-y: scroll;
- }
 }
 
 
@@ -209,10 +206,6 @@ input::placeholder {
 @media only screen and (max-width: 380px) {
   .flex {
     flex-direction: column;
-  }
-  .main-hero-div {
-    height: 30vw;
-    width:auto;
   }
   .mobile-hero {
     display:block;
@@ -231,11 +224,11 @@ input::placeholder {
   display:none;
  }
  .mobile-hero {
-  height:30vh;
+  height:25%;
  }
  .text-div {
   width:auto;
-  height:70vh;
+  height:70%;
   padding:5px;
  }
  .space{
@@ -248,7 +241,7 @@ input::placeholder {
    margin-top:30px;
  }
  .space {
-  height:5vh;
+  height:5%;
  }
  p {
   font-size: 16px;
@@ -258,9 +251,6 @@ input::placeholder {
  }
  #form-box {
   width:190px;
- }
- html, body {
-  overflow-y: scroll;
  }
 }
 
